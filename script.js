@@ -25,6 +25,14 @@ form.addEventListener("submit", function (e) {
     showError(emailInput, "Enter a valid email.");
     isValid = false;
   }
+  // Subject check
+  const subjectInput = document.getElementById("subject");
+
+  // Inside the form.addEventListener block:
+  if (subjectInput.value.trim() === "") {
+    showError(subjectInput, "Subject is required.");
+    isValid = false;
+  }
 
   // Message check
   if (messageInput.value.trim() === "") {
