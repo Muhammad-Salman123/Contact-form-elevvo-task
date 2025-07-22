@@ -18,7 +18,7 @@ A mobile-friendly and validated contact form built from scratch using *HTML, **C
 ##  Screenshots
 
 ###  Desktop
-![Desktop](form-desktop (2).jpeg)
+![Desktop](form-desktop(2).jpeg)
 
 ###  Mobile
-![Mobile](form-desktop (2).jpeg)
+![Mobile](form-mobile(2).jpeg)
